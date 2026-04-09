@@ -114,4 +114,8 @@ export KEYTIMEOUT=1
 # Ctrl+F for fzf
 bindkey '^F' fzf-file-widget
 
+# Aliases
+alias n=nvim
+alias la=lazygit
+
 . "$HOME/.local/bin/env"
