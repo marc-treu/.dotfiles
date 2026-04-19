@@ -106,6 +106,7 @@ export FZF_BASE=/usr/share/fzf
 
 # opencode
 export PATH=/home/marc/.opencode/bin:$PATH
+export COLORTERM=truecolor
 
 # Vi mode for command editing
 bindkey -v
@@ -117,5 +118,6 @@ bindkey '^F' fzf-file-widget
 # Aliases
 alias n=nvim
 alias la=lazygit
+alias oc=opencode
 
 . "$HOME/.local/bin/env"
