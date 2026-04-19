@@ -1,4 +1,9 @@
 {
   "$schema": "https://opencode.ai/tui.json",
-  "theme": "gruvbox-light"
+  "theme": "gruvbox-light",
+  "keybinds": {
+    "editor_open": "ctrl+g,<leader>e",
+    "messages_first": "pageup",
+    "messages_last": "pagedown,end"
+  }
 }
