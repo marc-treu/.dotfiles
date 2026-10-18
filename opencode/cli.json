@@ -1,7 +1,8 @@
 {
   "$schema": "https://opencode.ai/v2/cli.json",
   "theme": {
-    "name": "gruvbox-light"
+    "name": "solarized",
+    "mode": "light"
   },
   "keybinds": {
     "agent.cycle": "tab",
@@ -18,7 +19,7 @@
     "scrollbar": false,
     "thinking": "show"
   },
-  "animations": true,
+  "animations": false,
   "tabs": {
     "mode": "off"
   }
