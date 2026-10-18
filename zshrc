@@ -116,3 +116,7 @@ alias la=lazygit
 alias oc=opencode
 
 . "$HOME/.local/bin/env"
+
+# Smart directory jumping with z and zi.
+eval "$(zoxide init zsh)"
+alias zz='z -'
