@@ -4,6 +4,7 @@
     "name": "gruvbox-light"
   },
   "keybinds": {
+    "agent.cycle": "tab",
     "prompt.editor": "ctrl+e,<leader>e",
     "input.line.end": "none",
     "session.first": "pageup",
