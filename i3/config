@@ -76,11 +76,14 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Keep KMag as a centered floating magnifier window.
+for_window [class="Kmag"] floating enable, move position center
+
 # start a terminal
 bindsym $mod+Return exec kitty
 
 # kill focused window
-bindsym $mod+q kill
+bindsym $mod+Shift+q kill
 
 
 # start dmenu (a program launcher)
@@ -237,6 +240,7 @@ bar {
   }
   status_command i3status
 }
+# exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 
 exec --no-startup-id setxkbmap -option caps:swapescape
