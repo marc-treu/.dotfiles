@@ -30,6 +30,9 @@ vendor/
 *.pem
 *.key
 
+# OpenCode service credentials
+opencode/service.json
+
 # Backup files
 *.bak
 *.backup
