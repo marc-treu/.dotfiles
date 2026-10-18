@@ -113,7 +113,7 @@ bindkey '^F' fzf-file-widget
 # Aliases
 alias n=nvim
 alias la=lazygit
-alias oc=opencode
+alias oc='systemd-inhibit --what=idle:sleep --why="OpenCode is running" opencode'
 
 . "$HOME/.local/bin/env"
 
